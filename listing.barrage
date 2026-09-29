@@ -1,0 +1,40 @@
+# Claude bio-chem archive
+
+> A Claude conversation archive on the bio-chem / nuclear-roadmap style thread.
+
+## Purpose
+Explain this repo as saved talk, not as a lab protocol to run. Source: fitzyracing1/claude-bio-chem.
+
+## How it works (plain English)
+1. Keep the chat history in this repo.
+2. Use it to recall bio-chem talk.
+3. Do not treat the archive as a recipe to mix chemicals.
+
+## Key ideas
+- Conversation archive
+- Bio-chem thread
+- Family of claude-* repos
+
+## The actual code
+```
+# source: fitzyracing1/claude-bio-chem
+archive = conversation_shelf("bio-chem")
+read(archive)
+```
+
+## Line-by-line translation
+1. conversation_shelf("bio-chem") → “this folder holds that thread”
+2. read(archive) → “open the saved talk”
+
+## Decisions the program makes
+- If a reader asks for a how-to for hazardous mixes → refuse methods
+- If a reader wants the chat → stay here
+
+## What a person would notice
+A boxed research conversation, not a lab sheet.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the archive.

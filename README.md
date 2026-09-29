@@ -1,2 +1,5 @@
 # claude-bio-chem-barrage
-Barrage plain-language clone of fitzyracing1/claude-bio-chem
+
+Barrage clone of [fitzyracing1/claude-bio-chem](https://github.com/fitzyracing1/claude-bio-chem).
+
+Read [listing.barrage](listing.barrage).
